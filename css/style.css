@@ -23,7 +23,7 @@
 }
 
 a:hover {
-  cursor: url('../images/Vector.svg'), auto;
+  cursor: url('../Vector.svg'), auto;
 }
 
 @media screen and (max-width: 612px) {
