@@ -25,3 +25,9 @@
 a:hover {
   cursor: url('/Vector.svg'), auto;
 }
+
+@media screen and (max-width: 612px) {
+    .gallery {
+        padding: 0;
+    }
+}
