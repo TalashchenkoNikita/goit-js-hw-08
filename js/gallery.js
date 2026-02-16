@@ -89,9 +89,9 @@ gallery.addEventListener("click", (e) => {
   e.preventDefault();
   const img = e.target.closest(".gallery-image");
   if (!img) return; 
-  const { source, description } = img.dataset;
+  const { source, alt } = img.dataset;
   const instance = basicLightbox.create(`
-    <img src="${source}" alt="${description}" />
+    <img src="${source}" alt="${alt}" />
   `);
   instance.show();
 });

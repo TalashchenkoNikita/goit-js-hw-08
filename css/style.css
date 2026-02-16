@@ -21,3 +21,7 @@
     object-fit: cover;
     display: block; 
 }
+
+a:hover {
+  cursor: url('/Vector.svg'), auto;
+}
