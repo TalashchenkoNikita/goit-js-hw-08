@@ -86,11 +86,11 @@ const result = itemsTemplate(images);
 gallery.insertAdjacentHTML("afterbegin", result);
 
 gallery.addEventListener("click", (e) => {
-  e.preventDefault();
   const img = e.target.closest(".gallery-image");
   if (!img) return; 
+  e.preventDefault();
   const instance = basicLightbox.create(`
-    <img src="${img.dataset.source}" alt="${img.alt}" />
+    <img src="${img.dataset.source}" alt="${img.alt}"/>
   `);
   instance.show();
 });
