@@ -92,6 +92,5 @@ gallery.addEventListener("click", (e) => {
   const instance = basicLightbox.create(`
     <img src="${img.dataset.source}" alt="${img.alt}" />
   `);
-  console.log(img.alt);  
   instance.show();
 });
